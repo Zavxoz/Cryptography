@@ -1,0 +1,130 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 9.1 Build 222 10/21/2009 SJ Full Version
+# Date created = 03:32:22  December 27, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		BeIt_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Stratix II"
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY F0
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "03:32:22  DECEMBER 27, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE ANY
+set_global_assignment -name BDF_FILE F0.bdf
+set_global_assignment -name BDF_FILE LBE_block.bdf
+set_global_assignment -name BDF_FILE LBE_block_2.bdf
+set_global_assignment -name BDF_FILE LBE.bdf
+set_global_assignment -name BDF_FILE Stage_block.bdf
+set_global_assignment -name BDF_FILE G_func.bdf
+set_global_assignment -name BDF_FILE H_func.bdf
+set_global_assignment -name QIP_FILE lpm_rom0.qip
+set_global_assignment -name BDF_FILE RotHi_func.bdf
+set_global_assignment -name QIP_FILE lpm_add_sub_32b.qip
+set_global_assignment -name QIP_FILE lpm_xor_32b.qip
+set_global_assignment -name QIP_FILE lpm_add_sub0.qip
+set_global_assignment -name QIP_FILE lpm_compare_32b.qip
+set_global_assignment -name QIP_FILE lpm_compare_32_4.qip
+set_global_assignment -name QIP_FILE lpm_counter_ctn.qip
+set_global_assignment -name QIP_FILE lpm_counter_32b.qip
+set_global_assignment -name QIP_FILE lpm_dff_32b.qip
+set_global_assignment -name QIP_FILE lpm_mux_32b_2.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE F0.vwf
+set_global_assignment -name QIP_FILE lpm_mux32_8.qip
+set_global_assignment -name QIP_FILE lpm_add_sub_1.qip
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY ON -section_id eda_simulation
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name BDF_FILE BeIt.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BeIt.vwf
+set_global_assignment -name ENABLE_ADVANCED_IO_TIMING OFF
+set_global_assignment -name BDF_FILE full_simple_f.bdf
+set_global_assignment -name BDF_FILE nonfull_simple_f.bdf
+set_global_assignment -name END_TIME "2 us"
+set_global_assignment -name QIP_FILE lpm_counter128.qip
+set_global_assignment -name QIP_FILE lpm_xor128.qip
+set_global_assignment -name QIP_FILE lpm_bustri0.qip
+set_global_assignment -name QIP_FILE lpm_add_sub1.qip
+set_global_assignment -name BDF_FILE cnt_f.bdf
+set_global_assignment -name QIP_FILE lpm_add_sub_3.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_mux12_32.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_decode0.qip
+set_global_assignment -name BDF_FILE demux.bdf
+set_global_assignment -name QIP_FILE lpm_counter16.qip
+set_global_assignment -name BDF_FILE demux2.bdf
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_compare_cnt0.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_compare_cnt1.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_2.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_3.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_4.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_5.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_6.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_7.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_8.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_9.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_10.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_comparecnt_11.qip
+set_global_assignment -name QIP_FILE lpm_mux12_1.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_latch32.qip
+set_global_assignment -name QIP_FILE ../../../../altera/91/quartus/test/lpm_counter38.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE cnt_f.vwf
+set_global_assignment -name ADD_DEFAULT_PINS_TO_SIMULATION_OUTPUT_WAVEFORMS OFF
+set_global_assignment -name BDF_FILE test.bdf
+set_global_assignment -name QIP_FILE lpm_add_sub3.qip
+set_global_assignment -name QIP_FILE lpm_compare40.qip
+set_global_assignment -name BDF_FILE LBE_short.bdf
+set_global_assignment -name QIP_FILE lpm_bustri1.qip
+set_global_assignment -name QIP_FILE lpm_latch2.qip
+set_global_assignment -name QIP_FILE lpm_add_sub4.qip
+set_global_assignment -name QIP_FILE lpm_add_sub5.qip
+set_global_assignment -name QIP_FILE lpm_add_sub6.qip
+set_global_assignment -name QIP_FILE lpm_add_sub7.qip
+set_global_assignment -name QIP_FILE lpm_add_sub8.qip
+set_global_assignment -name QIP_FILE lpm_add_sub9.qip
+set_global_assignment -name QIP_FILE lpm_add_sub10.qip
+set_global_assignment -name QIP_FILE lpm_add_sub11.qip
+set_global_assignment -name QIP_FILE lpm_add_sub12.qip
+set_global_assignment -name QIP_FILE lpm_xor384.qip
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE F0.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
